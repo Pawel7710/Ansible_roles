@@ -1,0 +1,10 @@
+---
+# tasks file for packages1
+- name: instaluj htop
+  package:
+    name: htop
+    state: present
+- name: instaluj python3-pip
+  package:
+    name: python3-pip
+    state: present
