@@ -1,0 +1,10 @@
+- name: paczki 
+  hosts: local
+  connection: local
+  become: true
+  roles:
+    - packages1
+   
+ 
+
+  
